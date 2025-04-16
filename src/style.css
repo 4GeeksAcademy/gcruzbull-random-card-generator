@@ -1,5 +1,17 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-bottom {
+    transform: rotate(180deg);
+}
+
+#icon-top, #number, #icon-bottom {
+    font-size: 70px;
 }
